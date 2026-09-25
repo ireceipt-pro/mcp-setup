@@ -1,0 +1,25 @@
+{
+  "name": "ireceipt-pro",
+  "description": "Official iReceipt.pro plugins for Claude Code — design, validate and preview HTML (Mustache) templates that render to PDF and images.",
+  "owner": {
+    "name": "iReceipt.pro",
+    "email": "support@ireceipt.pro"
+  },
+  "plugins": [
+    {
+      "name": "ireceipt-pro",
+      "source": "./",
+      "description": "Connect Claude to your iReceipt.pro account: list, create, update and validate HTML (Mustache) templates for PDF / PNG / JPG / WEBP rendering, preview them, and use the template authoring guide.",
+      "category": "productivity",
+      "tags": [
+        "pdf",
+        "templates",
+        "mustache",
+        "html-to-pdf",
+        "invoices",
+        "receipts",
+        "image-generation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ireceipt-pro",
+  "description": "Connect Claude to your iReceipt.pro account: list, create, update and validate HTML (Mustache) templates for PDF / PNG / JPG / WEBP rendering, preview them, and use the template authoring guide.",
+  "version": "1.0.0",
+  "author": {
+    "name": "iReceipt.pro",
+    "email": "support@ireceipt.pro"
+  },
+  "homepage": "https://ireceipt.pro",
+  "repository": "https://github.com/ireceipt-pro/mcp-setup",
+  "keywords": [
+    "ireceipt",
+    "mcp",
+    "pdf",
+    "html-to-pdf",
+    "templates",
+    "mustache",
+    "invoices",
+    "receipts",
+    "png",
+    "webp"
+  ],
+  "mcpServers": {
+    "ireceipt-pro": {
+      "type": "http",
+      "url": "https://mcp.ireceipt.pro/mcp"
+    }
+  }
+}
